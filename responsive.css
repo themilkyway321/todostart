@@ -1,0 +1,116 @@
+@media (max-width:1100px){
+    
+    #calendar{
+        width:250px !important;
+    }
+    #calendar > div.fc-view-harness.fc-view-harness-active > div > table > tbody > tr > td > div > div,
+    #calendar > div.fc-view-harness.fc-view-harness-active > div > table > thead > tr > th > div > div {
+    overflow: hidden scroll !important;
+    }
+}
+
+@media (max-width:995px){
+   #main1, 
+   .dateBox{
+    padding: 0;
+   }
+   .clock{
+    top: 60px;
+   }
+   .weather{ font-size: 8px;line-height: 1.5em;}
+    #calendar{
+        left: 0;
+        width:197px !important;
+    }
+    #calendar > div.fc-view-harness.fc-view-harness-active > div > table > tbody > tr > td > div > div,
+    #calendar > div.fc-view-harness.fc-view-harness-active > div > table > thead > tr > th > div > div {
+    overflow: hidden scroll !important;
+    }
+}
+@media (max-width:931px){
+    #main1, 
+    .dateBox{
+     padding: 0;
+    }
+     #calendar{
+         left: 0;
+         width:160px !important;
+         transform: scale(0.94);
+     }
+     #calendar > div.fc-view-harness.fc-view-harness-active > div > table > tbody > tr > td > div > div,
+     #calendar > div.fc-view-harness.fc-view-harness-active > div > table > thead > tr > th > div > div {
+     overflow: hidden scroll !important;
+     }
+ }
+
+ 
+
+@media (max-width:680px){
+    .dateBox {
+        display: none !important;
+    }
+    .weather{ font-size: 7px;}
+    .clock{
+        font-size: 25px;
+    }
+    .container{
+       width: 80%;
+        flex-direction: column;
+        padding-left: 0;
+        gap: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #main1{
+        width: 100%;
+        flex: 0.3;
+    }
+    #main2{
+        width: 100%;
+    }
+    #name-form, .name-parent >h3{
+        margin: 40px 0 0 0;
+        
+        font-size: 15px;
+    }
+    .to-dos{
+        margin-top: 20px;
+        border: 1px solid transparent;
+        font-size: 11px;
+        position: relative;
+    }
+    #to-do-list{
+        position: absolute;
+        width: 100%;
+        box-sizing: border-box;
+       
+    }
+    #to-do-list::placeholder{
+        font-size: 11px;
+    }
+    .to-dos > ul{
+      
+       margin-top: 40px;
+     }
+     .to-dos > ul >li{
+        font-size: 12px;
+     }
+    
+}
+
+@media (max-height:525px){
+    .dateBox {
+        display: none !important;
+    }
+ }
+
+ @media (max-height:350px){
+    .clock{
+        top: 40px;
+        font-size: 20px;
+    }
+    .to-dos > ul >li{
+        font-size:10px;
+     }
+ }
